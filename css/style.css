@@ -1,0 +1,33 @@
+#lorem{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    text-align: justify;
+    color: green;
+    font-size: 1.5em;
+}
+
+.social-links-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.social-links {
+    font-size: 50px;
+    color: grey;
+    transition: 0.5s;
+}
+.facebook:hover{
+    color: rgba(0, 195, 255, 0.842);
+}
+.youtube:hover{
+    color: rgba(255, 38, 0, 0.849);
+}
+.instagram:hover{
+    color: rgba(216, 39, 92, 0.829);
+}
+.pinterest:hover{
+    color: rgb(255, 0, 0);
+}
